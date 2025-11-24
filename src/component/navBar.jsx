@@ -107,7 +107,7 @@ export default function NavBar() {
 
            <div className="relative flex flex-row items-center w-full h-[110px] gap-4 border-b border-b-gray-300 dark:border-b-gray-700 ">
               <img src="/images/robot.png" alt="robot" className='w-[50px] h-[50px]' />
-                <p className='relative font-Bold w-[70] h-[20] text-[20px] text-black dark:text-textDark after:content-[""] after:inline-block after:absolute after:left-0 after:bottom-1 after:w-[45px]  after:h-[2.8px] after:bg-linear-to-r after:from-blue-600 after:via-violet after:to-orang'>realvjy</p>
+                <p className='relative font-Bold  text-[20px] text-black dark:text-textDark after:content-[""] after:absolute after:left-0 after:bottom-1 after:w-[45px]  after:h-[2.8px] after:bg-linear-to-r after:from-blue-600 after:via-violet after:to-orang'>realvjy</p>
                <div className="absolute -z-10 top-0 right-0 left-0 w-full  h-full bg-linear-to-r from-cyan-400 via-fuchsia-400  to-yellow-400 opacity-30 rounded-[50px] blur-[20px]   "></div>
               <span className='absolute right-2 top-2 inline-block '>
                 <FaRegWindowClose className='w-[25px] h-[25px] dark:text-textDark' onClick={closeMenuHandler}></FaRegWindowClose>

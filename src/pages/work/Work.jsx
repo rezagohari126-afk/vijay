@@ -7,7 +7,7 @@ import Box from '../../component/box'
 
 export default function Work() {
   return (
-    <>git commit -m "Initial commit"
+    <>
         <Background></Background>
         <NavBar></NavBar>
         <div className="container mt-60 flex-col flex justify-center items-center gap-3">

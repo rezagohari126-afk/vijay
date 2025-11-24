@@ -16,7 +16,7 @@ export default function Nft() {
        <Background></Background>
        <NavBar></NavBar>
       <div className="container flex flex-col justify-center  items-center mt-[270px]">
-          <img src="../../public/images/robot.png" alt="" />
+          <img src="/images/robot.png" alt="robot" />
           <p className='text-lightGray font-Regular text-[24px] mt-[17px] dark:text-titleDark '>Welcom to</p>
 
           <p className='font-Bold text-[25px] sm:text-[32px] bg-[linear-gradient(to_right,#4AB1F1_0%,#566CEC_33%,#D749AF_66%,#FF7C51_100%)] bg-clip-text text-transparent'>metaverse of realvjy</p>
@@ -114,7 +114,7 @@ export default function Nft() {
      </div>
 
      <div className="container flex flex-col justify-center items-center mt-40 mb-20 gap-10">
-        <img src="/images/love.png" alt="love" className='dark:invert dark:brightness-200'/>
+        <img src="/images/Love.png" alt="love" className='dark:invert dark:brightness-200'/>
         <p className='max-w-[391px] h-[75px] font-Regular dark:text-textDark text-center sm:text-base tracking-[-2%]'>
            Thank you for all my collectors and welcome to <span className='font-Bold dark:text-titleDark'>discord </span> — for giveaways, announcements and friendly support
         </p>
