@@ -1,0 +1,88 @@
+@import "tailwindcss";
+@custom-variant dark (&:where(.dark, .dark *));
+html,body,#root{
+  min-height: 100vh;
+  overflow-y: scroll;
+}
+
+body{
+  @apply min-h-[200vh] pb-24;
+}
+@font-face{
+  font-family:'inter-medium';
+  src: url('../public/fonts/Inter_18pt-Medium.ttf')
+  format('truetype');
+  font-weight: 500;
+  font-style: normal;
+  font-display: swap
+  
+  
+  
+  ;
+}
+@font-face{
+  font-family:'inter-regular';
+  src: url('../public/fonts/Inter_18pt-Regular.ttf')
+  format('truetype');
+  font-weight: 400;
+  font-style: normal;
+  font-display: swap;
+  ;
+}
+@font-face{
+  font-family:'inter-bold';
+  src: url('../public/fonts/Inter_18pt-Bold.ttf')
+  format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ;
+}
+@font-face{
+  font-family:'inter-semibold';
+  src: url('../public/fonts/Inter_18pt-SemiBold.ttf')
+  format('truetype');
+  font-weight: 700;
+  font-style: normal;
+  font-display: swap;
+  ;
+}
+
+@theme {
+  --breakpoint-sm:640px;
+  --breakpoint-md:750px;
+  --breakpoint-lg:1200px;
+  --breakpoint-2xl:1400px;
+
+  --font-Medium:'inter-medium',sans-serif;
+  --font-Regular:'inter-regular',sans-serif;
+  --font-Bold:'inter-bold',sans-serif;
+  --font-semibold:'inter-semibold','sans-serif';
+
+  --color-white: rgba(255,255,255,30%);
+  --color-gray: rgba(74,87,77,60%);
+   --color-grayDark: rgba(74,87,77,80%);
+  --color-blue: #4AB1F1;
+  --color-violet: #D749AF;
+  --color-orang: #FF7C51;
+  --color-title: rgba(74,87,77,40%);
+  --color-titleDark:rgba(255,255,255,80%);
+  --color-box: rgba(234,243,255,70%);
+  --color-pink: rgba(255,90,209,90%);
+  --color-turquoise: #24D6D9;
+  --color-darkMain: #0A0A0D;
+  --color-navDark:rgba(28,22,47,20%);
+  --color-textDark:rgba(255,255,255,80%);
+  --color-lightGray:rgba(74,87,111,70%);
+  --color-bgCard:rgba(74,87,111,10%);
+  
+
+  
+  
+}
+
+@utility container{
+  @apply overflow-y-hidden overflow-x-hidden w-full px-2 sm:px-0 sm:max-w-[640px] md:max-w-[760px] lg:max-w-[1000px];
+  margin-right:auto;
+  margin-left:auto;
+}
