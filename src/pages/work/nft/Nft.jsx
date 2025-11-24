@@ -24,13 +24,13 @@ export default function Nft() {
           <p className="font-Regular text-[15px] sm:text-[18px] max-w-[517px] text-center mt-2 dark:text-textDark ">My digital arts are also available to collect from various NFT platforms</p>
 
           ` <div className="max-w-[402px] h-5 flex flex-row gap-9 justify-center mt-7 ">
-                      <img src="../../public/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
+                      <img src="/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
                       <div className="w-20 h-full flex flex-row justify-center items-center gap-2.5 py-2.5 *:dark:text-textDark  ">
                          <RiShining2Fill className='w-2'></RiShining2Fill>
                          <RiShining2Fill className='w-5'></RiShining2Fill>
                          <RiShining2Fill className='w-2'></RiShining2Fill>
                       </div>
-                      <img src="../../public/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
+                      <img src="/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
             </div>`
      </div>
      <div className="container flex  flex-row justify-center items-center flex-wrap gap-4  mt-18">
@@ -78,7 +78,7 @@ export default function Nft() {
      </div>
      <div className="container mt-15 flex  justify-center items-center ">
        <div className="p-4 flex flex-col items-start gap-[15px] ">
-           <img src="../../public/images/Cover.png" alt="cover" className=''/>
+           <img src="/images/Cover.png" alt="cover" className=''/>
         <p className='font-Bold dark:text-titleDark text-[16px] sm:text-[18px] text-left '>Lil frenz group</p>
         <p className='font-medium dark:text-textDark text-[15px] opacity-60 max-w-[660px] gap-[11px] '>
            A collection of dynamic NFTs. Totally driven by community and living on the Ethereum blockchain. On a mission to build the group of frenz in the metaverse with unique identity.
@@ -104,17 +104,17 @@ export default function Nft() {
      </div>
      <div className="container flex  justify-center  mt-14 ">
         <div className="grid grid-cols-2 md:grid-cols-3">
-            <NftCard src='public/images/nft1.png' condition='comming soon' title='LFG' price='0.7E'></NftCard>
-            <NftCard src='public/images/nft2.png' condition='sold' title='Skully' price='0.1E'></NftCard>
-            <NftCard src='public/images/nft3.png' condition='AUCTION' title='Magik Potions' price='0.2E'></NftCard>
-            <NftCard src='public/images/nft4.png' condition='sold' title='Figish' price='0.3E'></NftCard>
-            <NftCard src='public/images/nft5.png' condition='comming soon' title='Botos' price='0.4E'></NftCard>
-            <NftCard src='public/images/nft6.png' condition='comming soon' title='Primitivz Box' price='0.5E'></NftCard>
+            <NftCard src='/images/nft1.png' condition='comming soon' title='LFG' price='0.7E'></NftCard>
+            <NftCard src='/images/nft2.png' condition='sold' title='Skully' price='0.1E'></NftCard>
+            <NftCard src='/images/nft3.png' condition='AUCTION' title='Magik Potions' price='0.2E'></NftCard>
+            <NftCard src='/images/nft4.png' condition='sold' title='Figish' price='0.3E'></NftCard>
+            <NftCard src='/images/nft5.png' condition='comming soon' title='Botos' price='0.4E'></NftCard>
+            <NftCard src='/images/nft6.png' condition='comming soon' title='Primitivz Box' price='0.5E'></NftCard>
         </div>
      </div>
 
      <div className="container flex flex-col justify-center items-center mt-40 mb-20 gap-10">
-        <img src="public/images/love.png" alt="love" className='dark:invert dark:brightness-200'/>
+        <img src="/images/love.png" alt="love" className='dark:invert dark:brightness-200'/>
         <p className='max-w-[391px] h-[75px] font-Regular dark:text-textDark text-center sm:text-base tracking-[-2%]'>
            Thank you for all my collectors and welcome to <span className='font-Bold dark:text-titleDark'>discord </span> — for giveaways, announcements and friendly support
         </p>

@@ -18,13 +18,13 @@ export default function Work() {
                Over the course of the year, I spent a significant amount of time creating resources and tools for the community and many project for brands.
             </p>
              <div className="max-w-[402px] h-5 flex flex-row gap-9 justify-center mt-7 ">
-                      <img src="../../public/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
+                      <img src="/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
                       <div className="w-20 h-full flex flex-row justify-center items-center gap-2.5 py-2.5 *:dark:text-textDark  ">
                          <RiShining2Fill className='w-2'></RiShining2Fill>
                          <RiShining2Fill className='w-5'></RiShining2Fill>
                          <RiShining2Fill className='w-2'></RiShining2Fill>
                       </div>
-                      <img src="../../public/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
+                      <img src="/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
             </div>
         </div>
           <div className="container  mt-10 mb-36 grid grid-cols-2  sm:grid-cols-3 lg:grid-cols-4 gap-6  ">

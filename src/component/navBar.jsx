@@ -65,7 +65,7 @@ export default function NavBar() {
       <div className="container mt-10 absolute top-[15px] right-0 left-0">
           <nav className='w-full bg-white dark:bg-navDark rounded-xl has-[56px]  flex flex-row justify-between items-center p-4 pr-[25px]'>
               <div className="flex justify-center items-center gap-4 ">
-                  <p className='relative font-Bold w-[70] h-[20] text-[20px] text-black dark:text-textDark after:content-[""] after:inline-block after:absolute after:left-0 after:bottom-1 after:w-[45px]  after:h-[2.8px] after:bg-linear-to-r after:from-blue-600 after:via-violet after:to-orang'>realvjy</p>
+                  <p className='relative font-Bold  text-[20px] text-black dark:text-textDark after:content-[""] after:absolute after:left-0 after:bottom-1 after:w-[45px]  after:h-[2.8px] after:bg-linear-to-r after:from-blue-600 after:via-violet after:to-orang'>realvjy</p>
                   <ul className='hidden text-black  sm:flex justify-center items-center text-[12px] md:text-base font-Medium sm:gap-4 md:gap-6  '>
                     
                       {pages.map((item) => {
@@ -100,12 +100,13 @@ export default function NavBar() {
 
 
        {/* menu mobile */}
+
       <div className={`fixed  top-0 h-full w-[250px] transition-all duration-300 delay-100 bg-pink-50 dark:bg-darkMain z-40 px-2 ${showMenu ? "left-0" : "left-[-250px] "}`}>
          
           {/* header menu mobile */}
 
            <div className="relative flex flex-row items-center w-full h-[110px] gap-4 border-b border-b-gray-300 dark:border-b-gray-700 ">
-              <img src="../public/images/robot.png" alt="robot" className='w-[50px] h-[50px]' />
+              <img src="/images/robot.png" alt="robot" className='w-[50px] h-[50px]' />
                 <p className='relative font-Bold w-[70] h-[20] text-[20px] text-black dark:text-textDark after:content-[""] after:inline-block after:absolute after:left-0 after:bottom-1 after:w-[45px]  after:h-[2.8px] after:bg-linear-to-r after:from-blue-600 after:via-violet after:to-orang'>realvjy</p>
                <div className="absolute -z-10 top-0 right-0 left-0 w-full  h-full bg-linear-to-r from-cyan-400 via-fuchsia-400  to-yellow-400 opacity-30 rounded-[50px] blur-[20px]   "></div>
               <span className='absolute right-2 top-2 inline-block '>

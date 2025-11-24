@@ -8,7 +8,7 @@ export default function footer() {
          <div className='container relative m-10 flex flex-col justify-end items-end  w-full gap-[140px] '>
           
               <div className="flex flex-col max-w-[291px] min-h-[52px] gap-3 justify-center items-center mx-auto  ">
-               <img src="../../../public/images/credit.png" alt="credit"/>
+               <img src="/images/Credit.png" alt="credit"/>
                <div className="flex md:flex-row max-w-[291px] min-h-4 gap-4 opacity-30 flex-wrap font-Medium text-[12px] ">
                   <span className='dark:invert dark:brightness-200'>version</span>
                   <span className='dark:invert dark:brightness-200'>uikit</span>
@@ -18,9 +18,9 @@ export default function footer() {
                </div>
               </div>
               <div className="relative  flex flex-row items-center justify-center gap-3 h-4 mx-auto ">
-              <img src="../public/images/left.png" alt="footerImage" className='w-full sm:w-[147px]  dark:invert dark:brightness-200 h-3.5  absolute left-[-143px] sm:right-36' />
+              <img src="/images/left.png" alt="footerImage" className='w-full sm:w-[147px]  dark:invert dark:brightness-200 h-3.5  absolute left-[-143px] sm:right-36' />
               <span className='opacity-40 font-Medium text-[12px] dark:invert dark:brightness-200'>stay hungry, stay foolish</span>
-              <img src="../public/images/right.png" alt="footerImage" className='w-full sm:w-[147px] h-3.5  dark:invert dark:brightness-200 absolute right-[-143px] sm:left-36' />
+              <img src="/images/right.png" alt="footerImage" className='w-full sm:w-[147px] h-3.5  dark:invert dark:brightness-200 absolute right-[-143px] sm:left-36' />
               </div>
          
               

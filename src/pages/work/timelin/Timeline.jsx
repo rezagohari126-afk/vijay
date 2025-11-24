@@ -17,13 +17,13 @@ export default function Timeline() {
                     The linear view of some milestones and notable moments that happened so far. Check other stuff on twitter or linkedin
                   </p>
                    <div className="max-w-[402px] h-5 flex flex-row gap-9 justify-center mt-7 ">
-                            <img src="../../public/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
+                            <img src="/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
                             <div className="w-20 h-full flex flex-row justify-center items-center gap-2.5 py-2.5 *:dark:text-textDark  ">
                                <RiShining2Fill className='w-2'></RiShining2Fill>
                                <RiShining2Fill className='w-5'></RiShining2Fill>
                                <RiShining2Fill className='w-2'></RiShining2Fill>
                             </div>
-                            <img src="../../public/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
+                            <img src="/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
                   </div>
        </div>
         <div className="container flex  flex-row justify-center items-center flex-wrap gap-4  mt-18">
@@ -62,7 +62,7 @@ export default function Timeline() {
                    </div>
                    <h2 className='font-Bold text-base dark:text-titleDark mt-3'>elemental - figma</h2>
                    <p className='font-Regular sm:text-[14px] opacity-60 max-w-[340px] dark:text-textDark mt-4'>The colors and overall poster really inspired me, so I created it in @figma over the weekend 😍</p>
-                   <img src="public/images/timelineFigma.png" alt="figma" className='mt-4' />
+                   <img src="/images/timelineFigma.png" alt="figma" className='mt-4' />
                   </div>
                
                   <div className='mt-28'>
@@ -72,7 +72,7 @@ export default function Timeline() {
                    </div>
                     <h2 className='font-Bold text-base dark:text-titleDark mt-3'>All Made in figma</h2>
                       <p className='font-Regular  sm:text-[14px] opacity-60 dark:text-textDark max-w-[340px] mt-4'>The colors and overall poster really inspired me, so I created it in @figma over the weekend 😍</p>
-                    <img src="public/images/animations.png" alt="animation" className='mt-4'/>
+                    <img src="/images/animations.png" alt="animation" className='mt-4'/>
                    
                   </div>
 

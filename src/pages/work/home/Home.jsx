@@ -15,7 +15,7 @@ export default function Home() {
            <div className="w-full min-h-64 p-4 flex flex-col justify-start  gap-4  ">
                <div className="w-[249px] h-[102px] gap-[15px] pb-3 flex flex-row items-center  ">
                    <div className="w-[90px] h-[90px] ">
-                      <img src="../../../public/images/robot.png" alt="hexa" />
+                      <img src="/images/robot.png" alt="hexa" />
                    </div>
                    <div className="min-w-36 h-[50px] gap-5 flex flex-col text-left justify-center items-start ">
                       <p className='w-36 h-6 font-Bold text-[28px] dark:text-textDark whitespace-nowrap text-shadow-[1px_4px_0_rgba(0_0_0_/25%)]'>vijay verma</p>
@@ -34,11 +34,11 @@ export default function Home() {
            </div>
         </div>
         <div className="container mt-15 flex flex-row items-center justify-center sm:justify-between flex-wrap gap-10 opacity-20  ">
-           <img src="../../../public/images/figma.png" alt="" className='dark:invert dark:brightness-200' />
-           <img src="../../../public/images/adobe.png" alt="" className='dark:invert dark:brightness-200' />
-           <img src="../../../public/images/gaga.png" alt=""  className='dark:invert dark:brightness-200'/>
-           <img src="../../../public/images/product.png" alt=""  className='dark:invert dark:brightness-200'/>
-           <img src="../../../public/images/unknown.png" alt="" className='dark:invert dark:brightness-200' />
+           <img src="/images/figma.png" alt="" className='dark:invert dark:brightness-200' />
+           <img src="/images/adobe.png" alt="" className='dark:invert dark:brightness-200' />
+           <img src="/images/gaga.png" alt=""  className='dark:invert dark:brightness-200'/>
+           <img src="/images/product.png" alt=""  className='dark:invert dark:brightness-200'/>
+           <img src="/images/unknown.png" alt="" className='dark:invert dark:brightness-200' />
         </div>
         <div className="container mt-30 pl-2">
            <h2 className='font-Bold text-title dark:text-titleDark tracking-[3px] text-[14px] '>
@@ -94,16 +94,16 @@ export default function Home() {
                      </div>
                   </div>
                 </div>
-                  <img src="../../../public/images/Rectangle.png" alt="rectangle" className='md:w-[310px] md:h-[310px] md:translate-y-4 ' />
+                  <img src="/images/Rectangle.png" alt="rectangle" className='md:w-[310px] md:h-[310px] md:translate-y-4 ' />
             </div>
            </div>
         </div>
         <div className="container mt-20 mb-[100px] sm:mb-[200px] ">
             <div className="m-auto flex flex-wrap flex-col justify-center items-center sm:flex-row md:justify-center md:items-center opacity-20 gap-[25px] sm:gap-15 ">
-               <img src="../../../public/images/eversend.png" alt="#" className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200'/>
-               <img src="../../../public/images/zomato.png" alt="#"  className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200'/>
-               <img src="../../../public/images/feedly.png" alt="#" className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200' />
-               <img src="../../../public/images/group.png" alt="#"  className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200'/>
+               <img src="/images/eversend.png" alt="#" className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200'/>
+               <img src="/images/zomato.png" alt="#"  className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200'/>
+               <img src="/images/feedly.png" alt="#" className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200' />
+               <img src="/images/group.png" alt="#"  className='w-[110px] h-[30px] sm:w-[130px] sm:h-[30px] dark:invert dark:brightness-200'/>
                
             </div>
         </div>
