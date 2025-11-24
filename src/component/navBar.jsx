@@ -117,7 +117,7 @@ export default function NavBar() {
            {/* body menu */}
 
            <div className="w-full mt-[30px]">
-                 <ul className=' text-base text-black  font-Medium gap-[15px]  flex flex-col items-start  '>
+                 <ul className=' text-base text-black  font-Medium gap-[15px]  flex flex-col items-start pl-1.5 '>
                         {pages.map((item) => {
                          return(
                              <li key={item.key}>

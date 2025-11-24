@@ -14,12 +14,12 @@ const Intro = ({ onFinish }) => {
       if (index > text.length) {
         clearInterval(interval);
 
-        // بعد از پایان تایپ، یک تاخیر کوچک و سپس خروج
+        
         setTimeout(() => {
           onFinish();
         }, 1100);
       }
-    }, 120); // سرعت تایپ (می‌توانی تغییر دهی)
+    }, 120); 
 
     return () => clearInterval(interval);
   }, [onFinish]);
