@@ -5,9 +5,7 @@ html,body,#root{
   overflow-y: scroll;
 }
 
-body{
-  @apply min-h-[200vh] pb-24;
-}
+
 @font-face{
   font-family:'inter-medium';
   src: url('../public/fonts/Inter_18pt-Medium.ttf')
