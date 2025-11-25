@@ -23,7 +23,7 @@ export default function Nft() {
 
           <p className="font-Regular text-[15px] sm:text-[18px] max-w-[517px] text-center mt-2 dark:text-textDark ">My digital arts are also available to collect from various NFT platforms</p>
 
-          ` <div className="max-w-[402px] h-5 flex flex-row gap-9 justify-center mt-7 ">
+           <div className="max-w-[402px] h-5 flex flex-row gap-9 justify-center mt-7 ">
                       <img src="/images/left.png" alt="picture"  className='opacity-40 dark:invert dark:brightness-50'/>
                       <div className="w-20 h-full flex flex-row justify-center items-center gap-2.5 py-2.5 *:dark:text-textDark  ">
                          <RiShining2Fill className='w-2'></RiShining2Fill>
@@ -31,7 +31,7 @@ export default function Nft() {
                          <RiShining2Fill className='w-2'></RiShining2Fill>
                       </div>
                       <img src="/images/right.png" alt="picture" className='opacity-40 dark:invert dark:brightness-50' />
-            </div>`
+            </div>
      </div>
      <div className="container flex  flex-row justify-center items-center flex-wrap gap-4  mt-18">
        <span className='flex flex-row gap-1 px-3 rounded-[21px] py-1.5 font-Medium text-base text-[#1C309D] bg-[linear-gradient(to_right,#C3C2FF_0%,#9DBEFF_100%)] '>
